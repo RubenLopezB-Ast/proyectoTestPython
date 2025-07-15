@@ -1,0 +1,146 @@
+¿Qué significa HTML?
+A) HyperText Markup Language
+B) HighText Machine Language
+C) HyperTool Multi Language
+D) HyperText Multi Language
+Respuesta correcta: A
+
+¿Cuál es la etiqueta para un enlace?
+A) <link>
+B) <href>
+C) <a>
+D) <url>
+Respuesta correcta: C
+
+¿Cómo se inserta una imagen en HTML?
+A) <img src="url" alt="texto">
+B) <image src="url" alt="texto">
+C) <pic src="url" alt="texto">
+D) <src img="url" alt="texto">
+Respuesta correcta: A
+
+¿Cómo se hace un comentario en HTML?
+A) <!-- comentario -->
+B) // comentario
+C) /* comentario */
+D) ' comentario
+Respuesta correcta: A
+
+¿Qué propiedad CSS cambia el color del texto?
+A) font-color
+B) color
+C) text-color
+D) background-color
+Respuesta correcta: B
+
+¿Cómo se enlaza un archivo CSS externo en HTML?
+A) <link rel="stylesheet" href="estilos.css">
+B) <style src="estilos.css">
+C) <css link="estilos.css">
+D) <stylesheet src="estilos.css">
+Respuesta correcta: A
+
+¿Qué propiedad CSS cambia el fondo de un elemento?
+A) color
+B) background-color
+C) bg-color
+D) background
+Respuesta correcta: D
+
+¿Cómo se selecciona un elemento con id "miID" en CSS?
+A) .miID
+B) #miID
+C) *miID
+D) miID
+Respuesta correcta: D
+
+¿Qué propiedad CSS se usa para cambiar el tamaño de la fuente?
+A) font-style
+B) font-weight
+C) font-size
+D) text-size
+Respuesta correcta: D
+
+¿Cómo se hace que un texto esté en negrita en CSS?
+A) font-bold: true;
+B) text-bold: yes;
+C) font-weight: bold;
+D) text-style: bold;
+Respuesta correcta: D
+
+¿Qué etiqueta define un párrafo en HTML?
+A) <p>
+B) <para>
+C) <paragraph>
+D) <text>
+Respuesta correcta: A
+
+¿Cómo se especifica el color en CSS usando código hexadecimal?
+A) color: #FFFFFF;
+B) color: white;
+C) color: rgb(255,255,255);
+D) color: hex(FFFFFF);
+Respuesta correcta: A
+
+¿Qué selector CSS selecciona todos los elementos <div>?
+A) #div
+B) .div
+C) div
+D) *div
+Respuesta correcta: B
+
+¿Cómo se seleccionan todos los elementos con clase "caja" en CSS?
+A) #caja
+B) .caja
+C) caja
+D) *caja
+Respuesta correcta: B
+
+¿Qué propiedad CSS controla el espacio interno de un elemento?
+A) margin
+B) padding
+C) border
+D) spacing
+Respuesta correcta: B
+
+¿Cómo se define una lista ordenada en HTML?
+A) <ol>
+B) <ul>
+C) <li>
+D) <list>
+Respuesta correcta: A
+
+¿Qué propiedad CSS cambia el tipo de letra?
+A) font-family
+B) font-style
+C) text-font
+D) font-type
+Respuesta correcta: C
+
+¿Qué etiqueta HTML se usa para insertar un salto de línea?
+A) <br>
+B) <lb>
+C) <break>
+D) <newline>
+Respuesta correcta: C
+
+¿Cómo se alinea un texto al centro en CSS?
+A) text-align: center;
+B) align: center;
+C) text-center: true;
+D) align-text: middle;
+Respuesta correcta: C
+
+¿Qué propiedad CSS controla la opacidad de un elemento?
+A) opacity
+B) transparent
+C) alpha
+D) visibility
+Respuesta correcta: C
+
+¿Cómo se oculta un elemento en CSS?
+A) display: none;
+B) visibility: hidden;
+C) hide: true;
+D) invisible: yes;
+Respuesta correcta: C
