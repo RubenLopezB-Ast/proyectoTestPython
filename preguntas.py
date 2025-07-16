@@ -30,20 +30,28 @@ def cargar_pregunta_python(ruta):
         print(f"Error: El archivo {ruta} no es válido")
         return []
 
-
 def cargar_preguntas_txt(ruta):
     preguntas = []
     try:
         with open(ruta, "r", encoding="utf-8") as f:
-            lineas = f.readlines()
+            contenido = f.read()
 
-        for i in range(0, len(lineas), 6):
-            bloque = lineas[i:i+6]
-            if len(bloque) < 6:
-                continue
-            pregunta = bloque[0].strip()
-            opciones = [bloque[j].strip() for j in range(1, 5)]
-            respuesta_ok = bloque[5].strip().upper()
+        bloques = contenido.strip().split("\n\n")  # Separa bloques por línea en blanco doble
+
+        for bloque in bloques:
+            lineas = bloque.strip().split("\n")
+            if len(lineas) < 6:
+                continue  # Bloques incompletos se saltan
+
+            pregunta = lineas[0].strip()
+            opciones = [lineas[i].strip() for i in range(1, 5)]
+            respuesta_linea = lineas[5].strip()
+
+            if "Respuesta correcta:" in respuesta_linea:
+                respuesta_ok = respuesta_linea.split(":")[1].strip().upper()
+            else:
+                continue  # si no se encuentra la línea con la respuesta
+
             preguntas.append({
                 "pregunta": pregunta,
                 "opciones": opciones,
@@ -52,6 +60,6 @@ def cargar_preguntas_txt(ruta):
     except FileNotFoundError:
         print(f"--- ERROR --- ->No se encontró el archivo '{ruta}'.<-")
     except Exception as e:
-        print(f"--- ERROR --- ->Al leer el archivo '{ruta}'no es válido.<-")
+        print(f"--- ERROR --- ->Al leer el archivo '{ruta}' no es válido. Detalle: {e}")
 
     return preguntas
